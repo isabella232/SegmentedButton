@@ -1,4 +1,4 @@
-package com.alimaddi.sample;
+package com.fingltd.sample;
 
 import org.junit.Test;
 

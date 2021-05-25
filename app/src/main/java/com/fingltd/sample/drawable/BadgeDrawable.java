@@ -1,4 +1,4 @@
-package com.alimaddi.sample.drawable;
+package com.fingltd.sample.drawable;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

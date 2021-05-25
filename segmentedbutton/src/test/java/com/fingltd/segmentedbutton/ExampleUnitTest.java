@@ -1,4 +1,4 @@
-package com.alimaddi.segmentedbutton;
+package com.fingltd.segmentedbutton;
 
 import org.junit.Test;
 

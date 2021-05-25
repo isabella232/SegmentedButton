@@ -1,4 +1,4 @@
-package com.alimaddi.sample;
+package com.fingltd.segmentedbutton;
 
 import android.content.Context;
 
@@ -24,6 +24,6 @@ public class ExampleInstrumentedTest
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.alimaddi.sample", appContext.getPackageName());
+        assertEquals("com.fingltd.segmentedbutton.test", appContext.getPackageName());
     }
 }

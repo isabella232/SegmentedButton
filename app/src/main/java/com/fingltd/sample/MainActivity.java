@@ -1,20 +1,16 @@
-package com.alimaddi.sample;
+package com.fingltd.sample;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.os.Build.VERSION;
-import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
-import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,10 +18,10 @@ import androidx.core.content.ContextCompat;
 //import butterknife.BindView;
 //import butterknife.ButterKnife;
 //import butterknife.OnClick;
-import com.alimaddi.sample.databinding.ActivityMainBinding;
-import com.alimaddi.segmentedbutton.SegmentedButton;
-import com.alimaddi.segmentedbutton.SegmentedButtonGroup;
-import com.alimaddi.sample.drawable.BadgeDrawable;
+import com.fingltd.sample.databinding.ActivityMainBinding;
+import com.fingltd.segmentedbutton.SegmentedButton;
+import com.fingltd.segmentedbutton.SegmentedButtonGroup;
+import com.fingltd.sample.drawable.BadgeDrawable;
 import java.util.ArrayList;
 import java.util.Random;
 

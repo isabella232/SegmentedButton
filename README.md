@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/Yasilis/SegmentedButton.svg)](https://jitpack.io/#Yasilis/SegmentedButton)
+[![](https://jitpack.io/v/fingltd/SegmentedButton.svg)](https://jitpack.io/#fingltd/SegmentedButton)
 
 # SegmentedButton
 
@@ -12,7 +12,7 @@ Android view that mimics iOS's [SegmentedControl](https://developer.apple.com/de
 * Ripple effect on button tap
 * Draggable buttons
 * Animations
-* Support for API 23+
+* Support for API 22+
 * Support RTL Language
 
 ## Old Library
@@ -35,7 +35,7 @@ This project is originally forked from [addisonElliott/SegmentedButton](https://
 [![12](https://www.addisonelliott.net/SegmentedButtonImages/RoundedTransparentButtons.gif)](https://github.com/addisonElliott/SegmentedButton/blob/master/sample/src/main/res/layout/activity_main.xml#L634)
 [![12](https://www.addisonelliott.net/SegmentedButtonImages/SportsEquipment.gif)](https://github.com/addisonElliott/SegmentedButton/blob/master/sample/src/main/res/layout/activity_main.xml#L690)
 
-Code for all images can be found in the [sample project](https://github.com/Yasilis/SegmentedButton/blob/master/app/src/main/res/layout/activity_main.xml)
+Code for all images can be found in the [sample project](https://github.com/fingltd/SegmentedButton/blob/master/app/src/main/res/layout/activity_main.xml)
 
 ## Installation
 
@@ -53,12 +53,12 @@ and:
 
 ```gradle
 dependencies {
-    implementation 'com.github.Yasilis:SegmentedButton:$LATEST_VERSION'
+    implementation 'com.github.fingltd:SegmentedButton:$LATEST_VERSION'
 }
 ```
 
 **Note:** The `$LATEST_VERSION` string should be replaced with the latest version. The available versions can be found
-here: https://jitpack.io/#Yasilis/SegmentedButton
+here: https://jitpack.io/#fingltd/SegmentedButton
 
 **Note:** This library uses the AndroidX packages rather than the older Android support libraries. Periodic releases
 with the Android support library will be released based on user demand with the version appended with `-support` (e.g.
@@ -81,7 +81,7 @@ android {
 
 ### Layout XML
 ```xml
-<com.alimaddi.segmentedbutton.SegmentedButtonGroup
+<com.fingltd.segmentedbutton.SegmentedButtonGroup
     android:id="@+id/buttonGroup_lordOfTheRings"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -100,7 +100,7 @@ android {
     app:rippleColor="@color/green_800"
     app:selectedBackground="@color/green_900">
 
-    <com.alimaddi.segmentedbutton.SegmentedButton
+    <com.fingltd.segmentedbutton.SegmentedButton
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -112,7 +112,7 @@ android {
         app:text="Aragorn"
         app:textColor="@color/black" />
 
-    <com.alimaddi.segmentedbutton.SegmentedButton
+    <com.fingltd.segmentedbutton.SegmentedButton
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -124,7 +124,7 @@ android {
         app:text="Gimli"
         app:textColor="@color/black" />
 
-    <com.alimaddi.segmentedbutton.SegmentedButton
+    <com.fingltd.segmentedbutton.SegmentedButton
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -135,7 +135,7 @@ android {
         app:selectedTextColor="@color/yellow_200"
         app:text="Legolas"
         app:textColor="@color/black" />
-</com.alimaddi.segmentedbutton.SegmentedButtonGroup>
+</com.fingltd.segmentedbutton.SegmentedButtonGroup>
 ```
 
 ### Java
@@ -151,7 +151,7 @@ segmentedButtonGroup.setOnPositionChangedListener(new OnPositionChangedListener(
 segmentedButtonGroup.getPosition();
 ```
 
-Check out the [sample project](https://github.com/Yasilis/SegmentedButton/blob/master/app/src/main/res/layout/activity_main.xml) for additional examples
+Check out the [sample project](https://github.com/fingltd/SegmentedButton/blob/master/app/src/main/res/layout/activity_main.xml) for additional examples
 
 ## Attributes
 
